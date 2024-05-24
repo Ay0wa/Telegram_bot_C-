@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
+            },
             "SQlite": {
               "target": "Package",
               "version": "[3.13.0, )"
