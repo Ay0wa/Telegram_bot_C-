@@ -6,7 +6,7 @@ namespace TeacherReviewBot
 {
     public class DatabaseService
     {
-        private const string ConnectionString = "Server=127.0.0.1;Database=RateTeacherBot;User ID=root;Password=#;";
+        private const string ConnectionString = "Server=localhost; Database=rtbot; Uid=root; Pwd=[root];";
 
         public DatabaseService()
         {
