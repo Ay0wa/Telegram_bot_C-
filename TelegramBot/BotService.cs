@@ -57,7 +57,7 @@ namespace TeacherReviewBot
                     await SendTeachersListAsync(chatId);
                 }
                 else if (messageText == "добавить преподавателя"){
-                    await _botClient.SendTextMessageAsync(chatId, "Чтобы добавить преподавателя, напишите /add ФИО номер телефона почта");
+                    await _botClient.SendTextMessageAsync(chatId, "Чтобы добавить преподавателя, напишите /add ФИО номер телефона почта.");
                 }
                 else if (messageText.StartsWith("/add")){
                     AddNewTeacher(chatId, messageText);
