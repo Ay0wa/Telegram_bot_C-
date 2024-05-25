@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kda/Documents/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {}
+    "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {}
   },
   "projects": {
-    "/Users/kda/Documents/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {
+    "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kda/Documents/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
+        "projectUniqueName": "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
         "projectName": "TelegramBot",
-        "projectPath": "/Users/kda/Documents/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
-        "packagesPath": "/Users/kda/.nuget/packages/",
-        "outputPath": "/Users/kda/Documents/Telegram_bot_C-/TelegramBot/obj/",
+        "projectPath": "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/kda/Telegram_bot_C-/TelegramBot/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kda/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -76,15 +76,7 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
               "version": "[7.0.19, 7.0.19]"
             }
           ],
@@ -93,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }
