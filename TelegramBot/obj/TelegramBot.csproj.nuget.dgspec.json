@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {}
+    "C:\\Users\\strel\\Documents\\политех_2\\ТПП\\Telegram_bot_C-\\TelegramBot\\TelegramBot.csproj": {}
   },
   "projects": {
-    "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj": {
+    "C:\\Users\\strel\\Documents\\политех_2\\ТПП\\Telegram_bot_C-\\TelegramBot\\TelegramBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
+        "projectUniqueName": "C:\\Users\\strel\\Documents\\политех_2\\ТПП\\Telegram_bot_C-\\TelegramBot\\TelegramBot.csproj",
         "projectName": "TelegramBot",
-        "projectPath": "/home/kda/Telegram_bot_C-/TelegramBot/TelegramBot.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/home/kda/Telegram_bot_C-/TelegramBot/obj/",
+        "projectPath": "C:\\Users\\strel\\Documents\\политех_2\\ТПП\\Telegram_bot_C-\\TelegramBot\\TelegramBot.csproj",
+        "packagesPath": "C:\\Users\\strel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\strel\\Documents\\политех_2\\ТПП\\Telegram_bot_C-\\TelegramBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\strel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,18 +76,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.19, 7.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

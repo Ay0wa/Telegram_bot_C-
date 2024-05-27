@@ -103,13 +103,10 @@ namespace TeacherReviewBot
 
         private async Task AddNewTeacher(long chatId, string message){
             var data = message.Split(new[] { ' ' }, 6);
-            var teacher = new Teacher(data[2], data[1], data[3], data[4], data[5], "a");
-            Console.WriteLine(data[0] + '\n');
-            Console.WriteLine(data[1] + '\n');
-            Console.WriteLine(data[2] + '\n');
-            Console.WriteLine(data[3] + '\n');
-            Console.WriteLine(data[4] + '\n');
-            Console.WriteLine(data[5] + '\n');
+            var name = char.ToUpper(data[1][0]) + data[1].Substring(1);
+            var surname = char.ToUpper(data[2][0]) + data[2].Substring(1);
+            var patronymic = char.ToUpper(data[3][0]) + data[3].Substring(1);
+            var teacher = new Teacher(surname, name, patronymic, data[4], data[5], "a");
             _databaseService.AddTeacher(teacher);
             await _botClient.SendTextMessageAsync(chatId, "Преподаватель успешно добавлен!");
         }
